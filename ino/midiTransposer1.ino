@@ -2,7 +2,6 @@
 new topic completely: i have usb midi music keyboard, it frustrates me that there are only 61 keys and no easy way
 to tranpose, so what if we got a nano and some sturdy spst switches to mount on either end of the keyboard
 that would send key transpose to the midi usb from the nano?
-2 switches at either end for o-1o, o-2o or o+1o or o+2o,
 what could we build for this?
 
 Arduino Nano: The controller.
