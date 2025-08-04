@@ -1,3 +1,10 @@
+/*
+new topic completely: i have usb midi music keyboard, it frustrates me that there are only 61 keys and no easy way
+to tranpose, so what if we got a nano and some sturdy spst switches to mount on either end of the keyboard
+that would send key transpose to the midi usb from the nano?
+2 switches at either end for o-1o, o-2o or o+1o or o+2o,
+what could we build for this?
+
 Arduino Nano: The controller.
 
 2 x SPST Push-Button Switches: One for octave up, one for octave down.
@@ -10,7 +17,7 @@ Revised Arduino Sketch (Code)
 This code uses a variable to track the current octave shift and sends a new command each time a button is pressed. It also includes a check to prevent transposing beyond a reasonable range (e.g., +/- 2 octaves).
 
 C++
-
+*/
 #include <MIDIUSB.h>
 
 // Pins for the two switches
